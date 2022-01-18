@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="-3dp"
+    tools:layout_editor_absoluteY="10dp">
+
+    <Button
+        android:id="@+id/btnSelectDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Выбрать дату"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtSelectDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnSelectDate"
+        app:layout_constraintLeft_toRightOf="@+id/btnSelectDate"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnSelectDate" />
+
+    <Button
+        android:id="@+id/studyButton"
+        android:layout_width="135dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="108dp"
+        android:text="Учеба"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/workButton"
+        android:layout_width="135dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="108dp"
+        android:text="Работа"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sleepButton"
+        android:layout_width="135dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="208dp"
+        android:text="Сон"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/meetingsButton"
+        android:layout_width="135dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="208dp"
+        android:text="Встречи"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sportsButton"
+        android:layout_width="135dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="312dp"
+        android:text="Спорт"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/leisureButton"
+        android:layout_width="136dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="312dp"
+        android:text="Досуг"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/apiButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="460dp"
+        android:text="api"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
